@@ -76,22 +76,8 @@ Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.j
      ```
      http://localhost:3000
      ```
-
-   - Pada akses pertama, buat akun admin dengan mengisi email, password, dan nama.
-
-   - **Alternatif**: Jika ingin langsung otomatis menggunakan akun admin tanpa mengisi form:  
-     - Linux/Mac:  
-       ```bash
-       MB_EMAIL=root@mail.com MB_PASSWORD=root123 java -jar metabase.jar
-       ```  
-     - Windows CMD:  
-       ```cmd
-       set MB_EMAIL=root@mail.com
-       set MB_PASSWORD=root123
-       java -jar metabase.jar
-       ```
-
-   - Gunakan username dan password berikut untuk login jika menggunakan opsi otomatis:  
+     
+   - Login ke Metabase menggunakan username dan password berikut:
      ```
      username: root@mail.com
      password: root123
