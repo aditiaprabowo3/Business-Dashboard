@@ -33,28 +33,69 @@ Proyek ini mencakup:
 5. **Kesimpulan dan Rekomendasi**: Menarik kesimpulan dari hasil analisis dan memberikan rekomendasi praktis untuk mengurangi attrition.
 
 ### Persiapan
-**Sumber data**: Dataset yang digunakan dalam proyek ini adalah [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee) sesuai dengan instruksi dari submission proyek ini.
-**Setup environment**:
-Proyek ini membutuhkan lingkungan sederhana untuk menjalankan analisis data dan dashboard. Berikut langkah-langkah untuk mempersiapkan environment:
-1. Menjalankan `notebook.ipynb`
-   - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
-   - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
-2. **Menjalankan Dashboard**:
-   Untuk melihat isi dashboard secara langsung, dapat menggunakan **metabase** dengan bantuan Docker (pastikan Docker sudah terinstall).
-   - Jalankan perintah berikut:
-      ```
-      docker pull metabase/metabase:v0.46.4
-      ```
-   - Jalankan container Metabase menggunakan perintah:
-      ```
-      docker run -p 3000:3000 --name metabase metabase/metabase
-      ```
-   - Login ke Metabase menggunakan username dan password berikut:
-      ```
-      username: root@mail.com
-      password: root123
-      ```
+**Sumber data**: Dataset yang digunakan adalah [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee) sesuai instruksi submission.
+**Setup environment**:  
+Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.jar`** untuk menjalankan dashboard secara lokal.
 
+1. Menjalankan `notebook.ipynb`  
+   - Pastikan dependensi, packages, dan library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk detail dependensi).  
+   - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab atau Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
+
+2. **Menjalankan Dashboard**:  
+   Untuk melihat isi dashboard secara langsung, dapat menggunakan **Metabase** dengan menjalankan file `metabase.jar`.
+
+   - Pastikan Java Runtime sudah terinstall. Cek dengan perintah:  
+     ```bash
+     java -version
+     ```
+
+     Kalau belum ada, install Java dari:
+     https://www.java.com/en/download/
+
+   - Unduh file `metabase.jar` dari:  
+     https://www.metabase.com/start/jar.html
+
+   - Buka terminal (Mac/Linux) atau Command Prompt (Windows), lalu pindah ke folder tempat `metabase.jar` berada.
+
+     Contoh:  
+     - Windows:  
+       ```cmd
+       cd C:\Users\username\Downloads\metabase
+       ```  
+     - Mac/Linux:  
+       ```bash
+       cd /Users/username/Downloads/metabase
+       ```
+
+   - Setelah masuk ke dalam folder yang menyimpan metabase.jar, Jalankan Metabase dengan perintah:  
+     ```bash
+     java -jar metabase.jar
+     ```
+
+   - Buka browser dan akses:  
+     ```
+     http://localhost:3000
+     ```
+
+   - Pada akses pertama, buat akun admin dengan mengisi email, password, dan nama.
+
+   - **Alternatif**: Jika ingin langsung otomatis menggunakan akun admin tanpa mengisi form:  
+     - Linux/Mac:  
+       ```bash
+       MB_EMAIL=root@mail.com MB_PASSWORD=root123 java -jar metabase.jar
+       ```  
+     - Windows CMD:  
+       ```cmd
+       set MB_EMAIL=root@mail.com
+       set MB_PASSWORD=root123
+       java -jar metabase.jar
+       ```
+
+   - Gunakan username dan password berikut untuk login jika menggunakan opsi otomatis:  
+     ```
+     username: root@mail.com
+     password: root123
+     ```
 
 ---
 
