@@ -172,5 +172,7 @@ Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna m
    - Sesuaikan gaji karyawan agar kompetitif di pasar dan berikan insentif tambahan.
 3. **Perkuat Retensi Karyawan Baru**:
    - Implementasikan program onboarding dan mentoring untuk karyawan dengan masa kerja pendek.
-4. **Gunakan Model Prediktif**:
-   - Integrasikan model XGBoost untuk memonitor risiko secara real-time melalui dashboard HR.
+4. **Meningkatkan program pelatihan dan pengembangan karier**
+   - Khususnya untuk karyawan di bidang atau peran yang memiliki tingkat attrition tinggi, seperti Sales dan Research, untuk meningkatkan loyalitas dan keinginan bertahan.
+5. **Mengoptimalkan penggunaan dashboard secara berkala**
+   - Agar manajer HR dapat terus memantau indikator kunci dan segera mengambil tindakan jika ada tren negatif yang muncul.
