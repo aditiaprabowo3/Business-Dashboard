@@ -170,7 +170,7 @@ Proyek ini tersedia di GitHub:
 
 ---
 
-### 1. Clone Repository
+### Clone Repository
 
 Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
 
