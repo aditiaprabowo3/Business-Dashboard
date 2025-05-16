@@ -101,12 +101,14 @@ Menampilkan metrik-metrik kunci terkait tenaga kerja perusahaan:
 - **Jumlah Departemen**: 3 divisi
 - **Rata-rata Lama Bekerja (YearsAtCompany)**: 7,07 tahun
 - **Rata-rata Kepuasan Kerja (JobSatisfaction)**: 2,75 poin
+  
 Tujuan: Memberikan overview cepat terhadap struktur dan kondisi umum tenaga kerja.
 
 **2. Tingkat Resign Berdasarkan Gender**:
 Visualisasi ini membandingkan tingkat attrition (keluar) antara laki-laki dan perempuan.
 - **Laki-Laki**: 17,42%
 - **Perempuan**: 16,21%
+  
 Tujuan: melihat apakah ada pola tertentu terkait gender dalam keputusan untuk keluar dari perusahaan.
 
 **3. Attrition per Departemen**:
@@ -119,12 +121,14 @@ Contoh:
 - Sales memiliki attrition rate tertinggi: 20,69%
 - Research & Development: 15,26%
 - Human Resources: 15,79%
+  
 Tujuan: Visual ini berguna untuk mengetahui divisi mana yang paling rentan terhadap turnover.
 
 **4. Pengaruh Work-Life Balance terhadap Resign**:
 Menjelaskan hubungan antara skor work-life balance (skala 1–4) dengan jumlah karyawan yang keluar.
 - Mengelompokkan attrition berdasarkan tingkat work-life balance (skala 1–4).
 - Tingkat 3 menunjukkan jumlah tertinggi karyawan keluar (94 orang), diikuti oleh tingkat 2 dan 4.
+  
 Tujuan: Ini bisa membantu HR mengevaluasi kebijakan fleksibilitas kerja dan keseimbangan hidup karyawan.
 
 **5. Rata-Rata Pendapatan: Karyawan Aktif vs Resign**:
@@ -133,11 +137,13 @@ Grafik ini membandingkan rata-rata pendapatan bulanan antara:
 - Karyawan yang sudah resign
 Hasilnya menunjukkan:
 - Karyawan yang resign memiliki rata-rata gaji lebih rendah ($4.872) dibanding yang tetap bertahan ($6.982).
+  
 Tujuan: Melihat apakah pendapatan berkorelasi dengan attrition—menarik karena yang resign justru bergaji lebih tinggi.
 
 **6. Attrition Berdasarkan Job Role**:
 Menampilkan total pegawai dan tingkat attrition di setiap jenis peran pekerjaan:
 - Role Sales Representative mencatat attrition tertinggi (43.1%), meskipun jumlah karyawannya sedikit.
+  
 Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
   
 ## Conclusion
