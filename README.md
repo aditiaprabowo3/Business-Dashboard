@@ -145,6 +145,13 @@ Menampilkan total pegawai dan tingkat attrition di setiap jenis peran pekerjaan:
 - Role Sales Representative mencatat attrition tertinggi (43.1%), meskipun jumlah karyawannya sedikit.
   
 Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
+
+## Tujuan Dashboard:
+- Memberikan gambaran menyeluruh dan interaktif tentang kondisi SDM perusahaan.
+- Mengidentifikasi faktor-faktor utama penyebab attrition, baik dari segi demografi, departemen, pendapatan, hingga persepsi work-life balance.
+- Memberikan insight visual yang mudah dipahami untuk manajer dan tim HR.
+- Mendukung pengambilan keputusan strategis oleh tim HR untuk menekan tingkat keluar masuk karyawan dan meningkatkan retensi.
+- Menjadi acuan data-driven untuk strategi rekrutmen, kompensasi, dan pengembangan karyawan ke depan.
   
 ## Conclusion
 Proyek ini berhasil mencapai tujuan utama yaitu:
