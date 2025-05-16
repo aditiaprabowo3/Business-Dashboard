@@ -154,7 +154,7 @@ Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
 - Menjadi acuan data-driven untuk strategi rekrutmen, kompensasi, dan pengembangan karyawan ke depan.
   
 ## Conclusion
-Proyek ini berhasil mencapai tujuan utama yaitu:
+Melalui analisis data dan visualisasi interaktif dalam bentuk business dashboard, beberapa insight penting berhasil diperoleh:
 - Berdasarkan tingkat Resign Berdasarkan Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan
 - Sebagian besar karyawan masih aktif, namun tingkat attrition tetap perlu diwaspadai.
 - Perbandingan gender cukup seimbang, namun tingkat keluar cenderung sedikit lebih tinggi di kelompok tertentu.
