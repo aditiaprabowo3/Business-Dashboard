@@ -156,7 +156,7 @@ Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
   
 ## Conclusion
 Melalui analisis data dan visualisasi interaktif dalam bentuk business dashboard, beberapa insight penting berhasil diperoleh:
-- Berdasarkan tingkat Resign Berdasarkan Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan
+- Berdasarkan tingkat Resign pada Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan.
 - Sebagian besar karyawan masih aktif, namun tingkat attrition tetap perlu diwaspadai.
 - Beberapa job role menunjukkan attrition yang lebih tinggi, perlu perhatian khusus (misalnya: Sales dan HR).
 - Karyawan yang resign memiliki rata-rata pendapatan lebih rendah dibanding yang bertahan.
