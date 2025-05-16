@@ -175,8 +175,8 @@ Proyek ini tersedia di GitHub:
 Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
 
 ```bash
-git clone https://github.com/AmirRazer/PenerapanDataSainsProyekPertama.git
-cd PenerapanDataSainsProyekPertama
+git clone https://github.com/aditiaprabowo3/Business-Dashboard.git
+cd Business-Dashboard
 python -m venv env
 venv\Scripts\activate
 pip install -r requirements.txt
