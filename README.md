@@ -155,12 +155,14 @@ Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
   
 ## Conclusion
 Proyek ini berhasil mencapai tujuan utama yaitu:
-1. **Mengidentifikasi faktor utama penyebab attrition**:
-   - Faktor terpenting adalah lembur berlebihan (**OverTime**), pendapatan rendah (**MonthlyIncome**), dan masa kerja pendek.
-2. **Membangun model prediktif yang akurat**:
-   - Model XGBoost memberikan performa terbaik dengan **accuracy 84.94%** dan metrik lainnya yang tinggi.
-3. **Memberikan rekomendasi actionable**:
-   - Tim HR dapat mengimplementasikan kebijakan untuk mengurangi lembur, menyesuaikan skala gaji, dan memperkuat retensi karyawan baru.
+- Berdasarkan tingkat Resign Berdasarkan Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan
+- Sebagian besar karyawan masih aktif, namun tingkat attrition tetap perlu diwaspadai.
+- Perbandingan gender cukup seimbang, namun tingkat keluar cenderung sedikit lebih tinggi di kelompok tertentu.
+- Jarak ke kantor berpengaruh: makin jauh jaraknya, makin tinggi tingkat keluar, dan rata-rata masa kerja lebih pendek.
+- Beberapa job role menunjukkan attrition yang lebih tinggi, perlu perhatian khusus (misalnya: Sales dan HR).
+- Pendapatan bulanan berbeda antar job role, dan job role tertentu punya penghasilan rendah serta tingkat keluar tinggi.
+- Rata-rata usia karyawan 37 tahun, dengan rata-rata masa kerja 7 tahun — menunjukkan dominasi karyawan berpengalaman.
+- Karyawan dengan skor work-life balance 2 sampai 3 paling banyak keluar, ini menandakan mereka kurang puas dengan keseimbangan antara pekerjaan dan kehidupan pribadi.
 
 ### Rekomendasi Action Items untuk Perusahaan
 Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
