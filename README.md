@@ -153,7 +153,37 @@ Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
 - Memberikan insight visual yang mudah dipahami untuk manajer dan tim HR.
 - Mendukung pengambilan keputusan strategis oleh tim HR untuk menekan tingkat keluar masuk karyawan dan meningkatkan retensi.
 - Menjadi acuan data-driven untuk strategi rekrutmen, kompensasi, dan pengembangan karyawan ke depan.
-  
+
+## Menjalankan Sistem Machine Learning
+
+Untuk menjalankan prototype sistem machine learning yang telah dibuat, ikuti langkah-langkah berikut ini:
+> **Link Akses Dashboard**: [Lihat di StreamlitOnline](https://aditiaprabowo3-business-dashboard-app-julqkf.streamlit.app/)
+
+![prediksi impement](https://github.com/user-attachments/assets/8d5654d5-2bd9-4fd4-8e10-5f35914055dc)
+dengan prototype machine learning ini perusahaan dapat **meningkatkan retensi karyawan, mengurangi biaya rekrutmen, serta menciptakan lingkungan kerja yang lebih stabil dan produktif.**
+
+Untuk menjalankan proyek HR Analytics ini secara lokal, silakan ikuti panduan berikut:
+
+### 🔗 Repository
+Proyek ini tersedia di GitHub:  
+👉 (https://github.com/aditiaprabowo3/Business-Dashboard)
+
+---
+
+### 1. Clone Repository
+
+Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/AmirRazer/PenerapanDataSainsProyekPertama.git
+cd PenerapanDataSainsProyekPertama
+python -m venv env
+venv\Scripts\activate
+pip install -r requirements.txt
+
+```
+
+
 ## Conclusion
 Melalui analisis data dan visualisasi interaktif dalam bentuk business dashboard, beberapa insight penting berhasil diperoleh:
 - Berdasarkan tingkat Resign pada Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan.
