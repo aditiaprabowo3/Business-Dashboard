@@ -34,6 +34,7 @@ Proyek ini mencakup:
 
 ### Persiapan
 **Sumber data**: Dataset yang digunakan adalah [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee) sesuai instruksi submission.
+
 **Setup environment**:  
 Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.jar`** untuk menjalankan dashboard secara lokal.
 
