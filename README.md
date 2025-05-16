@@ -158,10 +158,8 @@ Tujuan: Menggali peran kerja mana yang paling tidak stabil secara retensi.
 Melalui analisis data dan visualisasi interaktif dalam bentuk business dashboard, beberapa insight penting berhasil diperoleh:
 - Berdasarkan tingkat Resign Berdasarkan Gender, Laki-laki sedikit lebih dominan melakukan resign dibanding perempuan
 - Sebagian besar karyawan masih aktif, namun tingkat attrition tetap perlu diwaspadai.
-- Perbandingan gender cukup seimbang, namun tingkat keluar cenderung sedikit lebih tinggi di kelompok tertentu.
-- Jarak ke kantor berpengaruh: makin jauh jaraknya, makin tinggi tingkat keluar, dan rata-rata masa kerja lebih pendek.
 - Beberapa job role menunjukkan attrition yang lebih tinggi, perlu perhatian khusus (misalnya: Sales dan HR).
-- Pendapatan bulanan berbeda antar job role, dan job role tertentu punya penghasilan rendah serta tingkat keluar tinggi.
+- Karyawan yang resign memiliki rata-rata pendapatan lebih rendah dibanding yang bertahan.
 - Rata-rata usia karyawan 37 tahun, dengan rata-rata masa kerja 7 tahun — menunjukkan dominasi karyawan berpengalaman.
 - Karyawan dengan skor work-life balance 2 sampai 3 paling banyak keluar, ini menandakan mereka kurang puas dengan keseimbangan antara pekerjaan dan kehidupan pribadi.
 
