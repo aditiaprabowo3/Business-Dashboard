@@ -136,7 +136,7 @@ Grafik ini membandingkan rata-rata pendapatan bulanan antara:
 - Karyawan yang masih aktif
 - Karyawan yang sudah resign
 Hasilnya menunjukkan:
-- Karyawan yang resign memiliki rata-rata gaji lebih rendah ($4.872) dibanding yang tetap bertahan ($6.982).
+   - Karyawan yang resign memiliki rata-rata gaji lebih rendah ($4.872) dibanding yang tetap bertahan ($6.982).
   
 Tujuan: Melihat apakah pendapatan berkorelasi dengan attrition—menarik karena yang resign justru bergaji lebih tinggi.
 
