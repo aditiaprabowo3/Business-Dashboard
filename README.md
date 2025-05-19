@@ -33,8 +33,14 @@ Proyek ini mencakup:
 5. **Kesimpulan dan Rekomendasi**: Menarik kesimpulan dari hasil analisis dan memberikan rekomendasi praktis untuk mengurangi attrition.
 
 ### Persiapan
-**Sumber data**: Dataset yang digunakan adalah [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee) sesuai instruksi submission.
+**Sumber data**: 
 
+Dataset yang digunakan berasal dari perusahaan Jaya Jaya Maju, sebuah organisasi multinasional yang telah berdiri sejak tahun 2000 dan memiliki lebih dari 1.000 karyawan di berbagai wilayah operasionalnya.
+Data ini mencakup informasi demografis dan pekerjaan karyawan, seperti usia, pendapatan, masa kerja, dan status pekerjaan. Dataset ini digunakan untuk menganalisis berbagai faktor yang memengaruhi tingkat attrition (keluarnya karyawan) di perusahaan tersebut.
+
+Dataset dapat diakses melalui:
+https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+ 
 **Setup environment**:  
 Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.jar`** untuk menjalankan dashboard secara lokal.
 
