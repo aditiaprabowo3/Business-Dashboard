@@ -42,14 +42,45 @@ Dataset dapat diakses melalui:
 https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
  
 **Setup environment**:  
-Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.jar`** untuk menjalankan dashboard secara lokal.
 
-1. Menjalankan `notebook.ipynb`  
+Proyek ini membutuhkan Java Runtime Environment (JRE) dan file metabase.jar untuk menjalankan dashboard secara lokal. Selain itu, untuk bagian analisis data, diperlukan Python beserta dependensi yang terinstal melalui virtual environment.
+
+**Setup Python Environment**
+
+Pastikan kamu sudah menginstall Python dan pip di komputer kamu.
+Untuk memudahkan manajemen paket, gunakan virtual environment. Berikut contoh menggunakan pipenv:
+
+1. **Install pipenv jika belum terinstal**
+
+```bash
+pip install pipenv
+```
+
+2. **Inisialisasi environment & install dependensi dari Pipfile**
+```bash
+pipenv install
+```
+
+3. **Masuk ke dalam virtual environment**
+```bash
+pipenv shell
+```
+
+4. **Jika menggunakan requirements.txt, jalankan perintah berikut setelah masuk virtual environment:**
+```bash
+pip install -r requirements.txt
+```
+
+**Setup Java Environment dan Menjalankan Business Dashboard**
+
+Dashboard dijalankan menggunakan Metabase yang memerlukan Java Runtime Environment (JRE).
+
+1. **Menjalankan `notebook.ipynb`**  
    - Pastikan dependensi, packages, dan library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk detail dependensi).  
    - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab atau Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
 
 2. **Menjalankan Dashboard**:  
-   Untuk melihat isi dashboard secara langsung, dapat menggunakan **Metabase** dengan menjalankan file `metabase.jar`.
+   Untuk melihat isi dashboard secara langsung, dapat menggunakan **Metabase** dengan menjalankan file `metabase.jar` pada terminal atau command prompt.
 
    - Pastikan Java Runtime sudah terinstall. Cek dengan perintah:  
      ```bash
@@ -95,7 +126,6 @@ Proyek ini membutuhkan **Java Runtime Environment (JRE)** dan file **`metabase.j
 ## Business Dashboard
 
 ![Business Dashboard](https://github.com/user-attachments/assets/12c69f37-16a3-48e4-bd73-8a62cc3952d4)
-
 
 Hasil dari analisis dan model prediktif dapat divisualisasikan dalam bentuk dashboard untuk membantu tim HR memantau dan memahami attrition secara real-time. Berikut adalah elemen-elemen yang dapat disertakan dalam dashboard:
 
@@ -170,12 +200,6 @@ dengan prototype machine learning ini perusahaan dapat **meningkatkan retensi ka
 
 Untuk menjalankan proyek HR Analytics ini secara lokal, silakan ikuti panduan berikut:
 
-### 🔗 Repository
-Proyek ini tersedia di GitHub:  
-👉 (https://github.com/aditiaprabowo3/Business-Dashboard)
-
----
-
 ### Clone Repository
 
 Clone repositori ke komputer lokal Anda menggunakan perintah berikut:
@@ -188,7 +212,10 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ```
-
+### Menjalankan Prediksi pada streamlit
+```bash
+streamlit run app.py
+```
 
 ## Conclusion
 Melalui analisis data dan visualisasi interaktif dalam bentuk business dashboard, beberapa insight penting berhasil diperoleh:
