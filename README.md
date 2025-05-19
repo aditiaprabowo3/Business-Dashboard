@@ -121,6 +121,11 @@ Dashboard dijalankan menggunakan Metabase yang memerlukan Java Runtime Environme
      password: root123
      ```
 
+**Menjalankan File Prediksi pada streamlit**
+
+```bash
+streamlit run app.py
+```
 ---
 
 ## Business Dashboard
