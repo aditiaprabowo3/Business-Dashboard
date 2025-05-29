@@ -66,6 +66,7 @@ pipenv install
 pipenv shell
 ```
 
+
 4. **Jika menggunakan requirements.txt, jalankan perintah berikut setelah masuk virtual environment:**
 ```bash
 pip install -r requirements.txt
